@@ -19,7 +19,7 @@ spec:
         - name: ghcr-creds
       containers:
         - name: transactions
-          image: ghcr.io/onniikun/module6-part3-transactions:76ae31374f0a87487e4d957399aef70e74c91ee3
+          image: ghcr.io/onniikun/module6-part3-transactions:503d5afc7136743120a2fbbbf5cb57a28084c61a
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
