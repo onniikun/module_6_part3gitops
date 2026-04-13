@@ -19,7 +19,7 @@ spec:
         - name: ghcr-creds
       containers:
         - name: transactions
-          image: ghcr.io/feranmi-ige/module_6_part3-transactions:latest
+          image: ghcr.io/onniikun/module6-part3-syncer:2685d6f02b94b2a598e5a31704063dc645e64388
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
